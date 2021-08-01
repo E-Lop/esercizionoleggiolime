@@ -1,0 +1,87 @@
+body {
+    background-image: url(background.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+.container {
+    /* sfondo scuro semitrasparente */
+    width: 1400px;
+    height: 700px;
+    margin: 50px 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+
+header {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    flex-direction: column;
+}
+
+.lim-logo {
+    width: 250px;
+    margin: auto;
+    align-content: center;
+    }
+
+header > h1 {
+    color: rgb(0, 221, 0);
+    margin: auto;
+    text-align: center;
+}
+
+nav > div {
+    width: 1000px;
+    background-color: rgb(0, 221, 0);
+    margin: auto;
+    text-align: center;}
+
+button {
+    margin: 10px 2px;
+} 
+
+main {
+    width: 1000px;
+    margin: auto;
+    color: white;
+    }
+
+div > h3 {
+    display: inline-block;
+    margin-bottom: 0px;
+}
+
+#indirizzo:before {
+    content: ' \21A6';
+    /* freccia verso destra */
+}
+
+.carica-media {
+    width: 350px;
+    height: 18px;
+    background-color: rgb(245, 180, 83);
+    border-radius: 5px;
+    margin-top: 2px;
+}
+
+.carica-piena {
+    width: 500px;
+    height: 18px;
+    background-color: rgb(30, 195, 30);
+    border-radius: 5px;
+    margin-top: 2px;
+}
+
+.carica-scarsa {
+    width: 175px;
+    height: 18px;
+    background-color: rgb(190, 65, 65);
+    border-radius: 5px;
+    margin-top: 2px;
+}
